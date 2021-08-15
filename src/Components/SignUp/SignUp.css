@@ -1,0 +1,61 @@
+.loginForm {
+  /* padding-top: 20px; */
+  display: block;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(13, 133, 13, 0.568);
+}
+
+.loginForm h1 {
+  padding-bottom: 20px;
+}
+
+.loginFormDet {
+  border: solid black 5px;
+  border-radius: 25px;
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.loginFormDet label {
+  padding-bottom: 3px;
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.loginFormDet input {
+  width: 100%;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+.loginFormDet button {
+  display: block;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: solid black 1px;
+  border-radius: 2px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loginFormDet button:hover {
+  background: black;
+  color: white;
+}
+
+.logo-login {
+  width: 300px;
+}

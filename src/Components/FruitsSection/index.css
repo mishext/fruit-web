@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+.fruits {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  row-gap: 50px;
+  grid-auto-flow: row;
+  justify-items: center;
+}
+
+.container p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  color: rgb(29, 27, 27);
+  text-align: center;
+}
+
+.fruits-images {
+  width: 270px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .fruits-images {
+    width: 200px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    row-gap: 40px;
+    grid-auto-flow: row;
+    justify-items: center;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .fruits-images {
+    width: 150px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    row-gap: 40px;
+    grid-auto-flow: row;
+    justify-items: center;
+  }
+}
